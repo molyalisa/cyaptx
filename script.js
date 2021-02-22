@@ -1,31 +1,11 @@
 function calculator
-var education =
-document.getElementById("education");
-var networth =
-document.getElementById("networth");
-var skills =
-document.getElementsByClassName("skills");
-var age =
-document.getElementsByClassName("age");
-var reputation =
-document.getElementsByClassName("reputation");
-var output =
-document.getElementById ("output");
-var submit =
-document.getElementById("submit");
-
-button.addEventListener("click", calculate);
-var button =
-document.getElementById("result");
-
-let result = 500;
-
 var education = document.getElementById("education");
 var networth = document.getElementById("networth");
 var skills = document.getElementsByClassName("skills");
 var age = document.getElementsByClassName("age");
 var reputation = document.getElementsByClassName("reputation");
-var submit = document.getElementById('submit');
+var output = document.getElementById ("output");
+var submit = document.getElementById("submit");
 
 
 button.addEventListener("click", calculate);
